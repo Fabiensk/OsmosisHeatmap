@@ -1,0 +1,1 @@
+/home/fab/public_html/osm/heatmap_test.js
