@@ -1,5 +1,5 @@
 # OsmosisHeatmap
-A plugin for [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) generating a JavaScript files with the coordinates, useful for creating heatmaps. Example of usage: display in a web page a heatmap of the items with 'addr:housenumber'. 
+A plugin for [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) generating a JavaScript files with the coordinates, useful for creating heatmaps (Osmosis is a tool for processing OpenStreetmap data in a configurable pipeline). Example of usage: display in a web page a heatmap of the items with 'addr:housenumber'.
 
 The sources of the plugin itself is offered under the [GNU Lesser General Public License version 3](https://www.gnu.org/licenses/lgpl.html), or (at your option) any later version (like the [source-code of Osmosis](https://github.com/openstreetmap/osmosis) itself).
 
