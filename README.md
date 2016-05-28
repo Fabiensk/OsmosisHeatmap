@@ -53,6 +53,8 @@ The script above will output the coordinates of the elements having a "addr:hous
 
 Put "heatmap_data.js" in the folder "html" and open "heatmap_test.html".
 
+![Example in Paris](sample.jpg)
+
 ## Build instructions
 
 This is a Netbeans project. It requires to have the following jar files from Osmosis in the directory "osmosis":
