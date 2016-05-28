@@ -11,6 +11,16 @@ The directory "html" contains a sample webpage displaying the generated data as 
 
 ## Usage
 
+### Installation
+
+In your Osmosis installation, create a subdirectory "plugins" and copy "OsmosisHeatmap.jar" there. According to the source code, as an alternative you can also copy it either:
+
+* in a subdirectory "plugins" of the current directory
+* or in a directory ".openstreetmap/osmosis/plugins" of your user directory
+* or in a directory openstreetmap/osmosis/plugins under your "AppData" directory (Windows)
+
+### Execution
+
 This plugin provides the task time "heatmapmerge" which takes as input a single input pipe. This task takes as parameter:
 
 * (unnamed parameter) The type of action (required).
@@ -42,3 +52,13 @@ The script above will output the coordinates of the elements having a "addr:hous
 * anothes that removes the nodes without "addr:housenumber" (first 'tag-filter'), removes the relations (2nd 'tag-filter'), keep only the nodes belonging to a way ('used-node') and finally sends the nodes and ways to a "heatmapmerge".
 
 Put "heatmap_data.js" in the folder "html" and open "heatmap_test.html".
+
+## Build instructions
+
+This is a Netbeans project. It requires to have the following jar files from Osmosis in the directory "osmosis":
+
+* jpf-1.5.jar
+* osmosis-core-0.44.1.jar
+* osmosis-xml-0.44.1.jar
+
+In the case you want to build it using another system (ex: maven), please make sure that the file "plugin.xml" is included in the generated jar (it is required by the plugin system of Omosis). 
