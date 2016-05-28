@@ -40,3 +40,5 @@ The script above will output the coordinates of the elements having a "addr:hous
 
 * one that keeps only the nodes with "addr:housenumber" ('node-key'), then sends the remaining to a "heatmapmerge"
 * anothes that removes the nodes without "addr:housenumber" (first 'tag-filter'), removes the relations (2nd 'tag-filter'), keep only the nodes belonging to a way ('used-node') and finally sends the nodes and ways to a "heatmapmerge".
+
+Put "heatmap_data.js" in the folder "html" and open "heatmap_test.html".

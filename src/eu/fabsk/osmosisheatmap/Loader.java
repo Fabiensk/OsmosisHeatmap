@@ -19,8 +19,6 @@ public final class Loader implements PluginLoader {
     @Override
     public Map<String, TaskManagerFactory> loadTaskFactories() {
         HashMap<String, TaskManagerFactory> map = new HashMap<>();
-        map.put("waytonode", new WayToNodeFactory());
-        map.put("heatmap", new HeatmapFactory());
         map.put("heatmapmerge", new HeatmapMergeFactory());
         return map;
     }
