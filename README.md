@@ -59,10 +59,4 @@ The folder "misc" contains "heatmap.sh", a configurable version of this bash scr
 
 ## Build instructions
 
-This is a Netbeans project. It requires to have the following jar files from Osmosis in the directory "osmosis":
-
-* jpf-1.5.jar
-* osmosis-core-0.44.1.jar
-* osmosis-xml-0.44.1.jar
-
-In the case you want to build it using another system (ex: maven), please make sure that the file "plugin.xml" is included in the generated jar (it is required by the plugin system of Omosis). 
+This is a Maven project. Hopefully it will compile without any specific configuration.
