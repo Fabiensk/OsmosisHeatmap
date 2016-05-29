@@ -3,7 +3,7 @@ A plugin for [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) generating a 
 
 The sources of the plugin itself is offered under the [GNU Lesser General Public License version 3](https://www.gnu.org/licenses/lgpl.html), or (at your option) any later version (like the [source-code of Osmosis](https://github.com/openstreetmap/osmosis) itself).
 
-The directory "html" contains a sample webpage displaying the generated data as a heatmap. Please note:
+The directory "misc" contains a sample webpage displaying the generated data as a heatmap. Please note:
 
 * That this page uses the tiles of the OpenStreetmap servers, which have a [usage policy](http://wiki.openstreetmap.org/wiki/Tile_usage_policy) you should read first. Basically, accessing it as an average individual is permitted (at the time of writing).
 
@@ -51,7 +51,9 @@ The script above will output the coordinates of the elements having a "addr:hous
 * one that keeps only the nodes with "addr:housenumber" ('node-key'), then sends the remaining to a "heatmapmerge"
 * anothes that removes the nodes without "addr:housenumber" (first 'tag-filter'), removes the relations (2nd 'tag-filter'), keep only the nodes belonging to a way ('used-node') and finally sends the nodes and ways to a "heatmapmerge".
 
-Put "heatmap_data.js" in the folder "html" and open "heatmap_test.html".
+Put "heatmap_data.js" in the folder "misc" and open "heatmap_test.html".
+
+The folder "misc" contains "heatmap.sh", a configurable version of this bash script.
 
 ![Example in Paris](sample.jpg)
 
